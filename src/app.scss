@@ -1,0 +1,16 @@
+@import url('tailwindcss/tailwind.css');
+@import url('@mdi/font/css/materialdesignicons.css');
+
+.social-icon {
+    @apply mdi  text-2xl btn btn-circle btn-outline text-primary btn-primary;
+    &:hover{
+        @apply scale-125;
+    }
+}
+button {
+    @apply btn;
+}
+
+i {
+    @apply mdi;
+}
